@@ -19,7 +19,8 @@ pipeline {
         project = 'roboshop'
         environment = ''
         component = 'cart'
-    }  
+    }
+      
     stages {
         
         stage('Setup Environment'){
